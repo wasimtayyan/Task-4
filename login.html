@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign In-Traveland</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header class="header Dark-BG">
+      <nav class="navbar container">
+        <div class="Logo">
+          <img src="/images/logo.svg" alt="Logo" class="Logo_image" />
+        </div>
+        <div class="navItems">
+          <ul class="Links_List">
+            <a href="./index.html">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li>About</li>
+            </a>
+            <a href="#">
+              <li>Serviecs</li>
+            </a>
+            <a href="#">
+              <li>Contac Us</li>
+            </a>
+          </ul>
+          <a href="/login.html" class="login Active"> Sign In </a>
+        </div>
+        <div class="menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="35"
+            height="35"
+            fill="currentColor"
+          >
+            <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+          </svg>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+    <section class="login_flex">
+      <div class="map"></div>
+      <div class="form_Div">
+        <form class="form">
+          <h4>Sign In</h4>
+          <div class="form_item">
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div class="form_item">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Your password"
+            />
+          </div>
+          <input type="submit" value="Submit" class="submit" />
+        </form>
+      </div>
+    </section>
+    <footer class="BG footer">
+      <div class="container">
+        <p class="footer_p">
+          Copyright © 2024 Wasim Altayan All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
