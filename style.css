@@ -260,6 +260,7 @@ tr td {
 
 .card:hover {
     transform: scale(1.1);
+    box-shadow: 5px 5px 30px #eec41e;
 }
 
 .card_img:hover {
