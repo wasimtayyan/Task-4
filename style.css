@@ -247,7 +247,8 @@ tr td {
     border-radius: 10px;
     padding-bottom: 10px;
     transition-duration: .5s;
-    cursor: progress
+    cursor: progress;
+    margin: 10px 0;
 }
 
 .card_img {
